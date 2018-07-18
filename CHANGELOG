@@ -1,0 +1,41 @@
+# CLIP ChangeLog for dev-perl/CLIP-Conf-Base
+
+*CLIP-Conf-Base-1.0-r2 (20 Dec 2013)
+
+  20 Dec 2013; Vincent Strubel <clipos@ssi.gouv.fr>
+  +CLIP-Conf-Base-1.0-r2.ebuild, -CLIP-Conf-Base-1.0-r1.ebuild:
+  Force rebuild.
+
+*CLIP-Conf-Base-1.0-r1 (16 May 2011)
+
+  16 May 2011; Vincent Strubel <clipos@ssi.gouv.fr>
+  +CLIP-Conf-Base-1.0-r1.ebuild, -CLIP-Conf-Base-1.0.ebuild:
+  Rbump to force rebuild.
+
+*CLIP-Conf-Base-1.0 (21 Oct 2008)
+
+  21 Oct 2008; Vincent Strubel <clipos@ssi.gouv.fr>
+  +CLIP-Conf-Base-1.0.ebuild, -CLIP-Conf-Base-0.3.ebuild:
+  First 'stable' and documented release.
+
+*CLIP-Conf-Base-0.3 (21 Aug 2008)
+
+  21 Aug 2008; Vincent Strubel <clipos@ssi.gouv.fr>
+  +CLIP-Conf-Base-0.3.ebuild, -CLIP-Conf-Base-0.2.ebuild:
+  Switch to CLIP::Logger for logging.
+
+*CLIP-Conf-Base-0.2 (20 Aug 2008)
+
+  20 Aug 2008; Vincent Strubel <clipos@ssi.gouv.fr>
+  +CLIP-Conf-Base-0.2.ebuild, -CLIP-Conf-Base-0.1.ebuild:
+  Prefix all exported sub names by clip_.
+  Add a sub to import with an arbitrary separator (to support e.g.
+  importing from an APT_CONFIG file, which uses space as separator,
+  rather than '=').
+
+*CLIP-Conf-Base-0.1 (19 Aug 2008)
+
+  19 Aug 2008; Vincent Strubel <clipos@ssi.gouv.fr>
+  CLIP-Conf-Base-0.2.ebuild:
+  Initial import. Preliminary version of common conffile import
+  functions in perl.

@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/CLIP-Conf-Base.t
+lib/CLIP/Conf/Base.pm

@@ -1,0 +1,9 @@
+Revision history for Perl extension CLIP::Conf::Base.
+
+1.0   Wed Oct 22 2008
+	- first stable release
+
+0.01  Tue Aug 19 15:50:04 2008
+	- original version; created by h2xs 1.23 with options
+		-AXc -n CLIP::Conf::Base
+
